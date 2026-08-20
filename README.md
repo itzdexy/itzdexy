@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/dexy-banner.webp" width="100%" alt="Dexy banner" />
+  <img src="./assets/dexy-banner.avif" width="100%" alt="Dexy banner" />
 </p>
 
 <br />
