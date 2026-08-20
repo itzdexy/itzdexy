@@ -19,7 +19,7 @@
 ### `$ whoami`
 
 ```text
-Dexy — building software, tools, and experiments.
+Dexy The VibeCoder
 ```
 
 ---
