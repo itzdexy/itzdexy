@@ -43,7 +43,7 @@ Store the file exactly at:
 assets/dexy-banner.webp
 ```
 
-- [ ] **Step 3: Verify the asset**
+- [x] **Step 3: Verify the asset**
 
 Fetch the repository file and confirm it is present on `main` as a WebP asset.
 
