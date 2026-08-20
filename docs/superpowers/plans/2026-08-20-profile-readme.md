@@ -2,18 +2,18 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Build the approved black-and-white anime/dev GitHub profile for `@itzdexy` using the user's exact banner, factual copy, monochrome stack icons, typing animation, and live GitHub activity.
+**Goal:** Build the approved black-and-white anime/dev GitHub profile for `@itzdexy` using the user's banner, factual copy, monochrome stack icons, typing animation, and live GitHub activity.
 
 **Architecture:** The profile is a single GitHub profile `README.md` backed by one local image asset. Visual personality comes from the banner and restrained terminal-style Markdown; dynamic elements are limited to external SVG services for typing, stack icons, streaks, and activity.
 
-**Tech Stack:** GitHub Markdown/HTML, PNG asset, readme-typing-svg, Simple Icons CDN, GitHub Streak Stats, GitHub Readme Activity Graph
+**Tech Stack:** GitHub Markdown/HTML, WebP asset, readme-typing-svg, Simple Icons CDN, GitHub Streak Stats, GitHub Readme Activity Graph
 
 **Spec:** `docs/superpowers/specs/2026-08-20-profile-readme-design.md`
 
 ## Global Constraints
 
 - Pure black / white presentation; muted gray only where GitHub rendering requires it.
-- Use the provided uploaded banner unchanged as `assets/dexy-banner.png`.
+- Use the provided uploaded banner as `assets/dexy-banner.webp`, preserving its 2048×682 composition and visual content.
 - Show exactly C++, Python, Tauri, Rust, and HTML.
 - Do not list private repositories or invent project descriptions.
 - Do not claim years of experience, employment, expertise, user counts, performance numbers, awards, or open-source impact.
@@ -22,35 +22,35 @@
 
 ---
 
-### Task 1: Add the exact banner asset
+### Task 1: Add the banner asset
 
 **Files:**
-- Create: `assets/dexy-banner.png`
+- Create: `assets/dexy-banner.webp`
 
 **Interfaces:**
-- Consumes: user-provided 2048×682 PNG banner
-- Produces: relative README asset path `./assets/dexy-banner.png`
+- Consumes: user-provided 2048×682 banner
+- Produces: relative README asset path `./assets/dexy-banner.webp`
 
-- [ ] **Step 1: Preserve the original pixels**
+- [ ] **Step 1: Preserve the visual**
 
-Use lossless PNG optimization only; do not crop, recolor, resize, redraw, or otherwise alter the visual content.
+Keep the original 2048×682 composition, characters, typography, colors, and framing. Use high-quality WebP encoding only to make repository upload practical; do not crop, recolor, redraw, resize, or restyle the image.
 
 - [ ] **Step 2: Add the image to the repository**
 
 Store the file exactly at:
 
 ```text
-assets/dexy-banner.png
+assets/dexy-banner.webp
 ```
 
 - [ ] **Step 3: Verify the asset**
 
-Fetch the repository file and confirm it is present on `main` and is a PNG asset.
+Fetch the repository file and confirm it is present on `main` as a WebP asset.
 
 - [ ] **Step 4: Commit**
 
 ```bash
-git add -- assets/dexy-banner.png
+git add -- assets/dexy-banner.webp
 git commit -m "assets: add Dexy profile banner"
 ```
 
@@ -60,14 +60,14 @@ git commit -m "assets: add Dexy profile banner"
 - Create: `README.md`
 
 **Interfaces:**
-- Consumes: `./assets/dexy-banner.png`
+- Consumes: `./assets/dexy-banner.webp`
 - Produces: the rendered GitHub profile homepage for `@itzdexy`
 
 - [ ] **Step 1: Create the exact profile Markdown**
 
 ```md
 <p align="center">
-  <img src="./assets/dexy-banner.png" width="100%" alt="Dexy banner" />
+  <img src="./assets/dexy-banner.webp" width="100%" alt="Dexy banner" />
 </p>
 
 <br />
@@ -140,7 +140,7 @@ Confirm the README contains no private repository names, no project cards, no in
 Confirm:
 
 ```text
-./assets/dexy-banner.png
+./assets/dexy-banner.webp
 ```
 
 exists, and every live activity URL contains:
@@ -160,7 +160,7 @@ git commit -m "feat: build Dexy GitHub profile"
 
 **Files:**
 - Verify: `README.md`
-- Verify: `assets/dexy-banner.png`
+- Verify: `assets/dexy-banner.webp`
 - Remove after execution: `docs/superpowers/specs/2026-08-20-profile-readme-design.md`
 - Remove after execution: `docs/superpowers/plans/2026-08-20-profile-readme.md`
 
@@ -203,4 +203,4 @@ Delete the design and plan files so the public profile repository remains intent
 
 - [ ] **Step 4: Verify the final repository**
 
-Confirm `README.md` and `assets/dexy-banner.png` remain accessible on `main` after cleanup.
+Confirm `README.md` and `assets/dexy-banner.webp` remain accessible on `main` after cleanup.
