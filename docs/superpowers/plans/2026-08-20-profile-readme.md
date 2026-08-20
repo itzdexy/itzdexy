@@ -31,11 +31,11 @@
 - Consumes: user-provided 2048×682 banner
 - Produces: relative README asset path `./assets/dexy-banner.webp`
 
-- [ ] **Step 1: Preserve the visual**
+- [x] **Step 1: Preserve the visual**
 
 Keep the original 2048×682 composition, characters, typography, colors, and framing. Use high-quality WebP encoding only to make repository upload practical; do not crop, recolor, redraw, resize, or restyle the image.
 
-- [ ] **Step 2: Add the image to the repository**
+- [x] **Step 2: Add the image to the repository**
 
 Store the file exactly at:
 
@@ -47,7 +47,7 @@ assets/dexy-banner.webp
 
 Fetch the repository file and confirm it is present on `main` as a WebP asset.
 
-- [ ] **Step 4: Commit**
+- [x] **Step 4: Commit**
 
 ```bash
 git add -- assets/dexy-banner.webp
