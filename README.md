@@ -1,40 +1,34 @@
-<div align="center">
+<h1>
+  <a href="https://github.com/itzdexy?tab=repositories">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/profile-header-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="assets/profile-header-light.svg" />
+      <img src="assets/profile-header-light.svg" alt="Dexy — view public repositories" width="840" />
+    </picture>
+  </a>
+</h1>
 
-# Dexy
+I build **developer tools, AI software, desktop apps, and Roblox projects**.  
+I care about clean interfaces and useful features.
 
-<sub>developer tools · AI software · desktop apps</sub>
+## Selected work
 
-<br />
+### [Graft ↗](https://github.com/itzdexy/Graft)
 
-`TypeScript` · `Luau` · `C++` · `Python` · `Rust` · `Tauri`
+**An AI coding agent for your terminal.**
 
-</div>
+Edit code, run commands, and test websites in a local browser—with your choice of AI provider.
 
----
+<sub>TypeScript · Bun · MIT · Source preview</sub>
 
-### About
+[Code](https://github.com/itzdexy/Graft) &nbsp;·&nbsp; [Install](https://github.com/itzdexy/Graft#install) &nbsp;·&nbsp; [Preview](https://github.com/itzdexy/Graft/blob/main/docs/media/graft-chat.png)
 
-I build focused software around **developer tooling, AI, automation, and desktop experiences**.
-
-Most projects stay private while they're in development. I publish the ones that are ready to ship.
-
-### Selected work
-
-**[Graft](https://github.com/itzdexy/Graft)**  
-Open-source AI coding agent for the terminal — built to work inside real projects, edit files, run commands, and test websites locally.
-
-<sub>TypeScript · multi-provider AI · local browser testing · MIT</sub>
-
-### Toolbox
+## Toolkit
 
 **Languages**  
-`TypeScript` `Luau` `C++` `Python` `Rust` `HTML`
+`Luau` `TypeScript` `C++` `Python` `Rust` `HTML`
 
-**Tools / Frameworks**  
-`Tauri` `Git` `Node.js` `Bun`
+**Tools & frameworks**  
+`Roblox Studio` `Tauri` `Node.js` `Bun` `Git`
 
----
-
-<div align="center">
-  <sub><a href="https://github.com/itzdexy">github.com/itzdexy</a></sub>
-</div>
+<sub>Most of my work is still private. [Browse public repositories ↗](https://github.com/itzdexy?tab=repositories)</sub>
