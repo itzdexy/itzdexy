@@ -2,61 +2,39 @@
 
 # Dexy
 
-**Building developer tools, AI software, and desktop experiences.**
+<sub>developer tools · AI software · desktop apps</sub>
 
-`TypeScript` · `C++` · `Python` · `Rust` · `Tauri`
+<br />
+
+`TypeScript` · `Luau` · `C++` · `Python` · `Rust` · `Tauri`
 
 </div>
 
 ---
 
-## About
+### About
 
-I build software around **developer tooling, AI, automation, and desktop apps**.
+I build focused software around **developer tooling, AI, automation, and desktop experiences**.
 
-Most of my projects stay private while they are still being developed. When something is ready to ship, I put the source here.
+Most projects stay private while they're in development. I publish the ones that are ready to ship.
 
-## Featured project
+### Selected work
 
-### [Graft](https://github.com/itzdexy/Graft)
+**[Graft](https://github.com/itzdexy/Graft)**  
+Open-source AI coding agent for the terminal — built to work inside real projects, edit files, run commands, and test websites locally.
 
-An open-source **AI coding agent for the terminal**. It can work with a project, edit files, run commands, and test websites through a local browser.
+<sub>TypeScript · multi-provider AI · local browser testing · MIT</sub>
 
-- Terminal-first workflow
-- Multiple AI provider support
-- Code editing and command execution
-- Local browser testing
-- Windows, macOS, and Linux support
-- MIT licensed
+### Toolbox
 
-## Stack
+**Languages**  
+`TypeScript` `Luau` `C++` `Python` `Rust` `HTML`
 
-<p>
-  <img src="https://cdn.simpleicons.org/typescript" width="30" height="30" alt="TypeScript" title="TypeScript" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/cplusplus" width="30" height="30" alt="C++" title="C++" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/python" width="30" height="30" alt="Python" title="Python" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/rust" width="30" height="30" alt="Rust" title="Rust" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/tauri" width="30" height="30" alt="Tauri" title="Tauri" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/git" width="30" height="30" alt="Git" title="Git" />
-</p>
-
-## Activity
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=itzdexy&bg_color=00000000&color=FFFFFF&line=FFFFFF&point=FFFFFF&area=false&hide_border=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=itzdexy&bg_color=00000000&color=24292F&line=24292F&point=24292F&area=false&hide_border=true" />
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=itzdexy&bg_color=00000000&color=24292F&line=24292F&point=24292F&area=false&hide_border=true" alt="Dexy's GitHub contribution activity" />
-  </picture>
-</p>
+**Tools / Frameworks**  
+`Tauri` `Git` `Node.js` `Bun`
 
 ---
 
-<p align="center">
-  <sub>github.com/itzdexy</sub>
-</p>
+<div align="center">
+  <sub><a href="https://github.com/itzdexy">github.com/itzdexy</a></sub>
+</div>
