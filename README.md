@@ -1,34 +1,23 @@
-<h1>
-  <a href="https://github.com/itzdexy?tab=repositories">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/profile-header-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="assets/profile-header-light.svg" />
-      <img src="assets/profile-header-light.svg" alt="Dexy — view public repositories" width="840" />
-    </picture>
-  </a>
-</h1>
+<div align="center">
 
-I build **developer tools, AI software, desktop apps, and Roblox projects**.  
-I care about clean interfaces and useful features.
+# Dexy
 
-## Selected work
+Building **developer tools, AI software, desktop apps, and Roblox projects**.
 
-### [Graft ↗](https://github.com/itzdexy/Graft)
+`Luau` · `TypeScript` · `C++` · `Python` · `Rust`
 
-**An AI coding agent for your terminal.**
+</div>
 
-Edit code, run commands, and test websites in a local browser—with your choice of AI provider.
+---
 
-<sub>TypeScript · Bun · MIT · Source preview</sub>
+### Graft
 
-[Code](https://github.com/itzdexy/Graft) &nbsp;·&nbsp; [Install](https://github.com/itzdexy/Graft#install) &nbsp;·&nbsp; [Preview](https://github.com/itzdexy/Graft/blob/main/docs/media/graft-chat.png)
+**[Graft](https://github.com/itzdexy/Graft)** is an open-source AI coding agent for the terminal.
 
-## Toolkit
+It can edit code, run commands, work inside real projects, and test websites with a local browser.
 
-**Languages**  
-`Luau` `TypeScript` `C++` `Python` `Rust` `HTML`
+[Repository](https://github.com/itzdexy/Graft) · [Install](https://github.com/itzdexy/Graft#install) · [Preview](https://github.com/itzdexy/Graft/blob/main/docs/media/graft-chat.png)
 
-**Tools & frameworks**  
-`Roblox Studio` `Tauri` `Node.js` `Bun` `Git`
+---
 
-<sub>Most of my work is still private. [Browse public repositories ↗](https://github.com/itzdexy?tab=repositories)</sub>
+<sub>Mostly building in private. Public projects show up here when they're ready.</sub>
